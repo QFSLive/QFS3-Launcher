@@ -2,46 +2,6 @@ LUUXIS LICENSE v1.0 – LICENCE PERSONNALISÉE / CUSTOM LICENSE
 
 Copyright © 2025 Luuxis
 
-FRANÇAIS 🇫🇷
-────────────────────────────────────────────────────────────
-
-Ce logiciel et son code source sont la propriété exclusive de l’auteur (ci-après « le Titulaire »).
-L’utilisation, la modification et la redistribution sont autorisées sous réserve du respect strict des conditions suivantes :
-
-1. 🛑 Interdiction d’usage commercial par des tiers  
-   - Il est strictement interdit de vendre, louer ou redistribuer ce code (ou ses dérivés) à des fins commerciales.  
-   - Toute utilisation commerciale directe du code est interdite, sauf autorisation écrite explicite du Titulaire.
-
-2. 💰 Microtransactions autorisées  
-   - La monétisation par microtransactions en jeu est autorisée, tant que :
-     - le code n’est pas vendu ni monétisé directement,
-     - le code source reste public et accessible.
-
-3. 📂 Code source obligatoire et public  
-   - Toute version redistribuée ou modifiée doit publier son code source complet, librement et gratuitement accessible, sans restriction.
-
-4. 🧾 Attribution  
-   - Le nom de l’auteur original (« Luuxis ») doit être clairement mentionné dans toute redistribution ou version modifiée.
-
-5. 🔐 Droit exclusif de revente par le créateur  
-   - Seul le Titulaire (Luuxis) est autorisé à vendre ou concéder une licence commerciale du code source.
-
-6. 🚫 Interdiction de modifier cette licence  
-   - Il est interdit de modifier, supprimer ou remplacer cette licence. Toute redistribution doit inclure cette licence sans altération.
-
-7. ⚠️ Absence de garantie  
-   - Le logiciel est fourni "tel quel", sans garantie. L’auteur décline toute responsabilité pour tout dommage lié à son usage.
-
-8. ⚖️ Violation et poursuites  
-   - Tout non-respect entraîne la résiliation immédiate de cette licence. L’usage non autorisé peut entraîner des poursuites conformément aux articles L.122-1 et L.335-3 du Code de la propriété intellectuelle (France).
-
-Par l’utilisation de ce logiciel, vous acceptez toutes les conditions de cette licence.
-
-────────────────────────────────────────────────────────────
-
-ENGLISH 🇬🇧
-────────────────────────────────────────────────────────────
-
 This software and its source code are the exclusive property of the author (hereinafter “the Licensor”).  
 Use, modification, and redistribution are permitted under the following strict conditions:
 

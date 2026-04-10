@@ -1,6 +1,6 @@
 /**
  * @author Luuxis
- * Luuxis License v1.0 (voir fichier LICENSE pour les détails en FR/EN)
+ * Luuxis License v1.0 (see LICENSE file for details in FR/EN)
  */
 
 const pkg = require('../package.json');
@@ -8,15 +8,16 @@ const nodeFetch = require("node-fetch");
 const convert = require('xml-js');
 let url = pkg.user ? `${pkg.url}/${pkg.user}` : pkg.url
 
-let config = `${url}/config`;
-let articles = `${url}/articles`;
+// Using a template string without the timestamp here to keep the base URL clean
+let config = `https://raw.githubusercontent.com/QFSLive/QFS3-Launcher/master/config.json`;
+let articles = `https://raw.githubusercontent.com/QFSLive/QFS3-Launcher/master/articles.json`;
 
 class Config {
     GetConfig() {
         return new Promise((resolve, reject) => {
-            nodeFetch(config).then(async config => {
-                if (config.status === 200) return resolve(config.json());
-                else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
+            nodeFetch(`${config}?t=${Date.now()}`).then(async res => {
+                if (res.status === 200) return resolve(res.json());
+                else return reject({ error: { code: res.statusText, message: 'Remote server uplink unavailable' } });
             }).catch(error => {
                 return reject({ error });
             })
@@ -37,12 +38,15 @@ class Config {
     }
 
     async getNews(config) {
+        // We add the timestamp here to ensure we bypass the GitHub cache every time news is requested
+        const newsUrl = `${articles}?t=${Date.now()}`;
+
         if (config.rss) {
             return new Promise((resolve, reject) => {
-                nodeFetch(config.rss).then(async config => {
-                    if (config.status === 200) {
+                nodeFetch(config.rss).then(async res => {
+                    if (res.status === 200) {
                         let news = [];
-                        let response = await config.text()
+                        let response = await res.text()
                         response = (JSON.parse(convert.xml2json(response, { compact: true })))?.rss?.channel?.item;
 
                         if (!Array.isArray(response)) response = [response];
@@ -56,14 +60,16 @@ class Config {
                         }
                         return resolve(news);
                     }
-                    else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
+                    else return reject({ error: { code: res.statusText, message: 'RSS feed unreachable' } });
                 }).catch(error => reject({ error }))
             })
         } else {
             return new Promise((resolve, reject) => {
-                nodeFetch(articles).then(async config => {
-                    if (config.status === 200) return resolve(config.json());
-                    else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
+                nodeFetch(newsUrl).then(async res => {
+                    if (res.status === 200) {
+                        return resolve(res.json());
+                    }
+                    else return reject({ error: { code: res.statusText, message: 'News database unreachable' } });
                 }).catch(error => {
                     return reject({ error });
                 })

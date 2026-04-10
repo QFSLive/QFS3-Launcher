@@ -88,28 +88,34 @@ async function setStatus(opt) {
     let playersOnline = document.querySelector('.status-player-count .player-count')
 
     if (!opt) {
-        statusServerElement.classList.add('red')
-        statusServerElement.innerHTML = `Ferme - 0 ms`
-        document.querySelector('.status-player-count').classList.add('red')
-        playersOnline.innerHTML = '0'
-        return
+        statusServerElement.classList.add('red');
+        statusServerElement.innerHTML = `SIGNAL LOST - 0 ms`;
+        return;
     }
 
-    let { ip, port, nameServer } = opt
-    nameServerElement.innerHTML = nameServer
-    let status = new Status(ip, port);
-    let statusServer = await status.getStatus().then(res => res).catch(err => err);
+    let { primary_host, backup_ip, port, nameServer } = opt;
+    nameServerElement.innerHTML = nameServer;
+
+    // First Attempt: Domain
+    let status = new Status(primary_host, port);
+    let statusServer = await status.getStatus().catch(() => ({ error: true }));
+
+    // Failover Attempt: If domain fails, try backup IP
+    if (statusServer.error) {
+        console.log("Primary domain failed, attempting backup uplink...");
+        status = new Status(backup_ip, port);
+        statusServer = await status.getStatus().catch(() => ({ error: true }));
+    }
 
     if (!statusServer.error) {
-        statusServerElement.classList.remove('red')
-        document.querySelector('.status-player-count').classList.remove('red')
-        statusServerElement.innerHTML = `En ligne - ${statusServer.ms ? statusServer.ms : 0} ms`
-        playersOnline.innerHTML = statusServer.playersConnect ? statusServer.playersConnect : '0'
+        statusServerElement.classList.remove('red');
+        document.querySelector('.status-player-count').classList.remove('red');
+        statusServerElement.innerHTML = `STABLE - ${statusServer.ms || 0} ms`;
+        playersOnline.innerHTML = statusServer.playersConnect || '0';
     } else {
-        statusServerElement.classList.add('red')
-        statusServerElement.innerHTML = `Ferme - 0 ms`
-        document.querySelector('.status-player-count').classList.add('red')
-        playersOnline.innerHTML = '0'
+        statusServerElement.classList.add('red');
+        statusServerElement.innerHTML = `SIGNAL LOST - 0 ms`;
+        playersOnline.innerHTML = '0';
     }
 }
 

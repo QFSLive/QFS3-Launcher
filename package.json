@@ -1,13 +1,13 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.2.2",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "QFS3-Launcher",
+    "productname": "QFS3 Launcher",
+    "version": "1.0.0",
+    "description": "Disfruta la isla :)",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Waltinho",
+        "email": "noreply@qsmpfansrv.com",
+        "url": "https://github.com/QFSLive/QFS3-Launcher"
     },
     "url": "http://luuxcraft.fr/api/user/bb8f5247-1d38-41bb-ab6d-3200471a06b2",
     "scripts": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/QFSLive/QFS3-Launcher.git"
     }
 }

@@ -14,7 +14,7 @@ export default class popup {
         this.popupButton = document.querySelector('.popup-button');
     }
 
-    openPopup(info) {
+openPopup(info) {
         this.popup.style.display = 'flex';
         if (info.background == false) this.popup.style.background = 'none';
         else this.popup.style.background = '#000000b3'
@@ -25,6 +25,12 @@ export default class popup {
         if (info.options) this.popupOptions.style.display = 'flex';
 
         if (this.popupOptions.style.display !== 'none') {
+            // Clean up old listeners to prevent memory leaks/double clicks
+            this.popupButton = document.querySelector('.popup-button'); 
+            let newButton = this.popupButton.cloneNode(true);
+            this.popupButton.parentNode.replaceChild(newButton, this.popupButton);
+            this.popupButton = newButton;
+
             this.popupButton.addEventListener('click', () => {
                 if (info.exit) return ipcRenderer.send('main-window-close');
                 this.closePopup();
