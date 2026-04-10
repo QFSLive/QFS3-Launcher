@@ -1,0 +1,11 @@
+{
+  "maintenance": false,
+  "maintenance_message": "The Federation is currently working on the island. Please wait.",
+  "server": {
+    "primary_host": "qfs3.qsmpfansrv.com",
+    "backup_ip": "185.207.165.31",
+    "port": 19008,
+    "nameServer": "QFS3 Island"
+  },
+  "modpack_url": "https://link-to-your-modpack.zip"
+}
