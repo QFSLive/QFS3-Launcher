@@ -1,10 +1,10 @@
 {
-  "maintenance": true,
+  "maintenance": false,
   "maintenance_message": "Server is down for maintenance. Check Discord Announcements for updates",
   "server": {
     "primary_host": "qfs3.qsmpfansrv.com",
     "port": 19008,
-    "nameServer": "QFS3"
+    "nameServer": "QFS3 Status"
   },
   "modpack_url": "https://link-to-your-modpack.zip"
 }
