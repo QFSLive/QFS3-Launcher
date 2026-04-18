@@ -1,15 +1,15 @@
 [
     {
         "title": "Multiple Instances",
-        "content": "New players will have this already. For people with the old launcher, you will have to enable some options in settings.\n Settings > Launcher > Launcher Behavior to "Keep Launcher Open",
+        "content": "New players will have this already. For people with the old launcher, you will have to enable some options in settings.\nSettings > Launcher > Launcher Behavior to \"Keep Launcher Open\".",
         "author": "Waltinho",
         "publish_date": "2026-04-17"
     },
     {
-    "title": "Resolved Multiplayer Servers",
-    "content": "Servers now connect to their respected names\n\n• QFS - Main Server\n• Flatworld - Builder Server\n• Test - Test Server",
-    "author": "Waltinho",
-    "publish_date": "2026-04-17"
+        "title": "Resolved Multiplayer Servers",
+        "content": "Servers now connect to their respected names\n\n• QFS - Main Server\n• Flatworld - Builder Server\n• Test - Test Server",
+        "author": "Waltinho",
+        "publish_date": "2026-04-17"
     },
     {
         "title": "Ongoing Testing",
