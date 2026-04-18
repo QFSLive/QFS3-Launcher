@@ -1,17 +1,5 @@
 [
     {
-<<<<<<< HEAD
-        "title": "QFS3 Launcher v1.0.6 Changelog",
-        "content": "<b>New Features</b>\n• Added year to news dates\n• Auto-refresh QFS3 Server Status every 30 seconds\n• Launch multiple Minecraft instances with the same modpack\n• New QFS3 icon for the launcher and modpack\n\n<b>Improvements</b>\n• Updated launch button title\n• Fixed Launcher Behavior settings text for clarity",
-        "author": "Waltinho",
-        "publish_date": "2026-04-17"
-    },
-    {
-        "title": "Multiple Instances",
-        "content": "To launch multiple minecraft instances enable the following settings.\n<b>Settings > Launcher Behavior > Keep Launcher Open</b>\nThis will keep the launcher open and you will be able to Launch QFS3 again or even under a different Minecraft account.",
-        "author": "Waltinho",
-        "publish_date": "2026-04-17"
-=======
     "title": "QFS3 Launcher v1.0.6 Changelog",
     "content": "<b>New Features</b>\n• Added year to news dates\n• Auto-refresh QFS3 Server Status every 30 seconds\n• Launch multiple Minecraft instances with the same modpack\n• New QFS3 icon for the launcher and modpack\n\n<b>Improvements</b>\n• Updated launch button title\n• Fixed Launcher Behavior settings text for clarity",
     "author": "Waltinho",
@@ -22,7 +10,6 @@
     "content": "To launch multiple minecraft instances enable the following settings.\n<b>Settings > Launcher Behavior > Keep Launcher Open</b>\nThis will keep the launcher open and you will be able to Launch QFS3 again or even under a different Minecraft account.",
     "author": "Waltinho",
     "publish_date": "2026-04-17"
->>>>>>> 6ef33455acbee95ead2dd8c976bd7051728afba4
     },
     {
         "title": "Resolved Multiplayer Servers",
