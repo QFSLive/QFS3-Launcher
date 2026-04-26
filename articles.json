@@ -1,5 +1,11 @@
 [
     {
+    "title": "QFS3 Launcher v1.1.9 Changelog",
+    "content": "<b>Bug Fixes</b>\n• Resolved Auto-update issue with Linux devices\n\n[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.9)",
+    "author": "Waltinho",
+    "publish_date": "2026-04-26"
+    },
+    {
     "title": "QFS3 Launcher v1.1.8 Changelog",
     "content": "<b>Bug Fixes</b>\n• Set default Max RAM Allocation to 8GB instead of 6GB\n• Edited Java Arguments to fix FPS drop issues\n\n[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.8)",
     "author": "Waltinho",
