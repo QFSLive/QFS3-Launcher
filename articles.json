@@ -1,7 +1,19 @@
 [
     {
+    "title": "QFS3 Launcher v1.1.8 Changelog",
+    "content": "<b>Bug Fixes</b>\n• Set default Max RAM Allocation to 8GB instead of 6GB\n• Edited Java Arguments to fix FPS drop issues\n\n[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.8)",
+    "author": "Waltinho",
+    "publish_date": "2026-04-26"
+    },
+    {
     "title": "QFS3 Launcher v1.1.6 Changelog",
     "content": "[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.6)",
+    "author": "Waltinho",
+    "publish_date": "2026-04-26"
+    },
+    {
+    "title": "QFS3 Launcher v1.1.5 Changelog",
+    "content": "<b>Now supports Linux and MacOS</b>/n [Download Linux/MacOS QFS3 Launcher Here](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.5)",
     "author": "Waltinho",
     "publish_date": "2026-04-26"
     },
@@ -17,7 +29,6 @@
         "author": "Waltinho",
         "publish_date": "2026-04-22"
     },
-
     {
     "title": "QFS3 Launcher v1.0.10 Changelog",
     "content": "<b>New Features</b>\n• Fixed Distant Horizon JVM Warning",
