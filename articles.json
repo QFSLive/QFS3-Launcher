@@ -1,5 +1,11 @@
 [
     {
+    "title": "QFS3 Launcher v1.1.6 Changelog",
+    "content": "[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.6)",
+    "author": "Waltinho",
+    "publish_date": "2026-04-26"
+    },
+    {
     "title": "QFS3 Launcher v1.1.3 Changelog",
     "content": "[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.3)",
     "author": "Waltinho",
@@ -11,12 +17,7 @@
         "author": "Waltinho",
         "publish_date": "2026-04-22"
     },
-    {
-    "title": "QFS3 Launcher v1.1.2 Changelog",
-    "content": "[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.1.2)",
-    "author": "Waltinho",
-    "publish_date": "2026-04-22"
-    },
+
     {
     "title": "QFS3 Launcher v1.0.10 Changelog",
     "content": "<b>New Features</b>\n• Fixed Distant Horizon JVM Warning",
