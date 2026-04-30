@@ -1,5 +1,11 @@
 [
     {
+    "title": "QFS3 Launcher v1.2.1 Changelog",
+    "content": "• Added Repair Installation button in settings to resolve stuck loading problems.\n\n[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.2.1)",
+    "author": "Waltinho",
+    "publish_date": "2026-04-30"
+    },
+    {
     "title": "Thank You For Testing!",
     "content": "<b>You're All Awesome!!!</b>",
     "author": "Waltinho",
