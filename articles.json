@@ -1,5 +1,11 @@
 [
     {
+    "title": "QFS3 Launcher v1.3.6 Changelog",
+    "content": "<b>Major Changes</b>\n• Prism support has been added\n• Language Pack has been added to support Spanish, Portuguese, and French\n\n[View full changelog](https://github.com/QFSLive/QFS3-Launcher/releases/tag/v1.3.6)",
+    "author": "Waltinho",
+    "publish_date": "2026-05-08"
+    },
+    {
         "title": "Mod Changelog",
         "content": "Mods Removed:\n• SkinLayers3D\n\nMods Updated:\n• Arts & Crafts\n• Athena\n• Bosses'Rise\n• Distant Horizons\n• Scholar\n• ShatterLib\n• Simple Voice Chat\n• Sophisticated Core\n• Sophisticated Storage\n• Traveler's Backpack",
         "author": "Waltinho",
