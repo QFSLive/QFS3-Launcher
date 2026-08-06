@@ -1,4 +1,15 @@
+<!--
+  Discord invites on this page MUST stay https://discord.gg/NM4zYptd7V.
+  Every platform gets its own permanent invite code so the Discord owner channel shows where each
+  member came from; NM4zYptd7V is the GitHub one. The website uses UwzA6C23Xu, Twitch PCkkvJMHKc,
+  and so on. Pasting a different code here does not break anything visibly - it silently
+  misattributes every join that came from this repo.
 
+  The join card is OURS, served from qfs-site (src/pages/api/discord-card.svg.ts). The upstream
+  README used invidget.switchblade.xyz, which is now dead and rendered as a broken image; Discord's
+  own widget.png works but only reports the online count and looks ancient. Ours shows online AND
+  total members, and falls back to a cached snapshot if Discord or the box is unreachable.
+-->
 <p align="center"><img src="../src/assets/images/icon/icon.png" alt="QFS3 Launcher"></p>
 
 <h1 align="center">QFS3 Launcher</h1>
@@ -18,14 +29,14 @@
   <a href="https://www.qsmpfansrv.com/leaderboards">Leaderboards</a> ·
   <a href="https://discord.gg/NM4zYptd7V">Discord</a>
 </p>
+
 <p align="center">
   <a href="https://discord.gg/NM4zYptd7V">
     <img src="https://www.qsmpfansrv.com/api/discord-card.svg" alt="Join the QSMPFanSrv Discord">
   </a>
 </p>
 
-<p align="center">
-</p>
+---
 
 ## What it is
 
