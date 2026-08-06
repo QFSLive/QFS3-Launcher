@@ -26,7 +26,6 @@
 
 <p align="center">
 </p>
----
 
 ## What it is
 
@@ -122,15 +121,3 @@ French and English. In short, and binding on anyone forking this in turn:
 - Luuxis must be credited as the original author.
 - The licence must be kept as-is. It cannot be altered, replaced or removed.
 - The code itself may not be sold or commercially redistributed.
-
----
-
-<p align="center">
-  <a href="https://discord.gg/NM4zYptd7V">
-    <img src="https://www.qsmpfansrv.com/api/discord-card.svg" alt="Join the QSMPFanSrv Discord">
-  </a>
-</p>
-
-<p align="center">
-  <sub>Disfruta la isla</sub>
-</p>
