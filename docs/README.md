@@ -25,7 +25,6 @@
 </p>
 
 <p align="center">
-  <sub>Disfruta la isla</sub>
 </p>
 ---
 
