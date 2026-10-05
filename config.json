@@ -6,7 +6,8 @@
   "server": {
     "primary_host": "85.155.121.116",
     "port": 19008,
-    "nameServer": "QFS3 Status"
+    "nameServer": "QFS3 Status",
+    "hosts": ["85.155.121.116", "qfs3.qsmpfansrv.com"]
   },
   "modpack_url": "https://link-to-your-modpack.zip"
 }
