@@ -4,7 +4,7 @@
   "maintenance": false,
   "maintenance_message": "Server is down for maintenance. Check Discord Announcements for updates",
   "server": {
-    "primary_host": "qfs3.qsmpfansrv.com",
+    "primary_host": "85.155.121.116",
     "port": 19008,
     "nameServer": "QFS3 Status"
   },
